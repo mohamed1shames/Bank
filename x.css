@@ -1,0 +1,126 @@
+body{
+
+color: rgb(255, 0, 0);
+background-color: rgb(235, 235, 235)!important;
+
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+hr{
+    width: 10rem;
+    opacity: 1;
+}
+.hr-primary{
+border-bottom: 5px solid #f52929;
+
+}
+.hr-secondary {
+    border-bottom: 5px solid #443c3c;
+}
+
+.text-primary{
+   color: rgb(255, 0, 0) !important;
+}
+.text-modal-dark{
+    color: #000000 !important;
+}
+.bg-dark{
+    background-color: #494949 !important;
+    align-items: center;
+    padding: 0.20rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.bg-secondary{
+    background-color: #ffffff !important;
+}
+.navbar{
+    border-bottom: 3px solid #f05454;
+    opacity: 0,8;
+}
+#showcase {
+    background: url(digitalbank.jpg) no-repeat center center/cover fixed;
+   min-height: 100vh;
+}
+#showcase .dark-overlay{
+    position: absolute;
+    top: px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#showcase .showcase-info{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.btn-dark{
+    background-color: #dbdbdb !important; 
+}
+.btn-dark:hover{
+    background-color: #000000 !important;
+}
+.bg-primary{
+    background-color: #00000062 !important;
+}
+#projecte-categories{
+    background: url(/pexels-thisisengineering-3861958.jpg)  no-repeat center center/cover fixed;
+
+}
+#projecte-categories .card img{
+    height: 270px;
+    padding: 2px;
+}
+#projecte-categories .card-body {
+    border-top: 4px solid #f52929;
+}
+.qww{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.p-4{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(196, 156, 156, 0.37);
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 5px;
+}
+.aq{
+    background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding-bottom: 20px;
+padding-top: 2px;
+}
+.zx{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+display: flex;
+text-align: center;
+
+
+}
+.zx:hover{
+color: #ff0000;
+
+font-size: 33px;
+}
+#contact a{
+    text-decoration: none;
+}
+#main-footer a{
+    text-decoration: none;
+}
